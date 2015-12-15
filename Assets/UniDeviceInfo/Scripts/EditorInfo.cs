@@ -16,11 +16,11 @@ namespace UniDeviceInfo {
         }
 
         public string GetVersion(){
-            return "0";
+            return PlayerSettings.bundleVersion;
         }
 
         public string GetBuildVersion(){
-            return "0";
+            return PlayerSettings.bundleVersion;
         }
 
         public string GetDeviceName(){
